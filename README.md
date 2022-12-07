@@ -40,6 +40,13 @@ Everything needed for this repo/assignment to work smoothly is all here. All you
 **1.** In the terminal, ` cd ` into the repo folder and type `node app.js `
 > app.js is what contains the APIs and routing instructions.
 >  
+##### IMPORTANT ERROR
+If running node app.js sends an error that the sqlite3 module cannot be found, in the terminal paste this `npm install https://github.com/mapbox/node-sqlite3/tarball/master` Then re type into the terminal `node app.js`
+
+For more infomation on this error and fix check this link out:
+
+https://www.npmjs.com/package/sqlite3
+
 **2.** After typing this, the terminal should return "working!" to let you know that a connection to the server was made and you can move on to opening your browswer of choice to view the website.
 
 **3.** In your browswer's search bar, type  http://localhost:3000. This is the main/home page of the website. You should see a form.
