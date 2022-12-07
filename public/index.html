@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Make Report</title>
+</head>
+
+<body>
+    <div id="topbar">
+        <a href="index.html">Make Report</a>
+        <a href="/rephistory">View History</a>
+    </div>
+    <div id="formbox">
+        <form class="report" action="/squirrel" method="post">
+            <h3>Where On Campus Did You Spot The Squirrel?</h3>
+            <input type="radio" id="north" name="location" value="north">
+            <label for="north" class="rbtn">North</label>
+
+            <input type="radio" id="south" name="location" value="south">
+            <label for="south" class="rbtn">South</label><br>
+
+            <input type="radio" id="east" name="location" value="east">
+            <label for="east" class="rbtn">East</label>
+
+            <input type="radio" id="west" name="location" value="west">
+            <label for="west" class="rbtn">West</label>
+
+            <h3>How Old Did The Squirrel Look?</h3>
+            <input type="radio" id="young" name="age" value="young">
+            <label for="young" class="rbtn">Young</label>
+
+            <input type="radio" id="old" name="age" value="old">
+            <label for="old" class="rbtn">Old</label>
+
+            <h3>What Color Was The Squirrel?</h3>
+            <h4>Primary: </h4>
+            <input type="radio" id="gray1" name="pricolor" value="Gray">
+            <label for="gray1" class="rbtn">Gray</label>
+
+            <input type="radio" id="cin1" name="pricolor" value="Cinnamon">
+            <label for="cin1" class="rbtn">Cinnamon</label>
+
+            <input type="radio" id="black1" name="pricolor" value="Black">
+            <label for="black1">Black</label> <br>
+            <h4>Secondary: </h4>
+            <input type="radio" id="gray2" name="seccolor" value="Gray">
+            <label for="gray2" class="rbtn">Gray</label>
+
+            <input type="radio" id="cin2" name="seccolor" value="Cinnamon">
+            <label for="cin2" class="rbtn">Cinnamon</label>
+
+            <input type="radio" id="black2" name="seccolor" value="Black">
+            <label for="black2" class="rbtn">Black</label>
+
+
+            <h3>Was The Squirrel Eating?</h3>
+            <input type="radio" id="yes" name="eating" value="true">
+            <label for="yes" class="rbtn">Yes</label>
+
+            <input type="radio" id="no" name="eating" value="false">
+            <label for="no" class="rbtn">No</label><br>
+
+            <button type="submit" id="submit">Submit</button>
+    </div>
+</body>
+
+</html>

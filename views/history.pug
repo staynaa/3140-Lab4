@@ -1,0 +1,20 @@
+doctype html 
+html 
+    head
+        title History 
+        style 
+            include ../public/main.css
+    body 
+    div(id="topbar")
+        a(href="/index.html") Make Report
+        a(href="/rephistory") View History
+    ul
+        each rep, i in report
+            div(class="replist")
+                h3 Report #{rep.id}
+                li= "Located " + rep.location+ " of campus"
+                li= "Squirrel was "+ rep.age
+                li= "Eating: "+ rep.eating
+            br
+//- see how the indentation looks, much cleaner and formatted well
+//- line 12 works like a for loop rep=report coming from the api
