@@ -6,7 +6,7 @@ However everything needed for this repo/assignment to work smoothly is all here.
 ## Instructions:
 ###### Important Must have NPM/Node JS 
 **1.** In the terminal, ` cd ` into the repo folder and type `node app.js `
-> app.js is what contains the APIs and routing instructions.
+> app.js is what contains the APIs and routing instructions.< 
 **2.** After typing this, the terminal should return "Worked!" to let you know that a connection to the server was made and you can move on to opening your browswer of choice to view the website.
 **3.** In your browswers search bar, type  http://localhost:3000. This is the main/home page of the website. You should see a form.
 **4.** Answer the form and submit when everything is filled out. Once submitted, Click on *"View History"* and scroll until you see your latest report!
