@@ -2,7 +2,38 @@
 ## About:
 This repo contains the frontend portion of the quiz5 report on quiz2/lab3 Database and API assignment. The database and api used could be found over at https://github.com/CesarIgnacio/Lab3-CISC-3140
 
-However everything needed for this repo/assignment to work smoothly is all here. All you need to do is follow these instructions
+## Repo Structure:
+
+**1.** .vscode folder
+>This folder contains a settings.json file that contains the information for our connection to the database.
+>
+**2.** DEMO folder
+>This folder contains pictures of how our frontend looks like.
+>It has pictures of our main page (formpage.png), our history log page (historypage.png), and our submission page (submitpage.png)
+>
+**3.** Database folder
+>This folder contains the squirrel.db database created using SQLite.
+>
+**4.** node_modules folder
+>Contains files needed for ExpressJS and NodeJS.
+>
+**5.** public folder
+>Contains all our .html files and .css file needed for the frontend .
+>
+**6.** views folder
+>Contains our history.pug file which allows us to display all the records in our frontend's history log page.
+>
+**7.** README.md file
+>This file which contains all the information you'll need to understand the repo and project.
+>
+**8.** app.js file
+>Contains our API endpoints for this project.
+>
+**9.** package_lock.json and package.json
+>These are files that contain the dependencies needed for our API.
+>
+##
+Everything needed for this repo/assignment to work smoothly is all here. All you need to do is follow these instructions
 
 ## Instructions:
 ###### Important Must have NPM/Node JS 
