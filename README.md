@@ -12,13 +12,15 @@ However everything needed for this repo/assignment to work smoothly is all here.
 **2.** After typing this, the terminal should return "Worked!" to let you know that a connection to the server was made and you can move on to opening your browswer of choice to view the website.
 
 **3.** In your browswer's search bar, type  http://localhost:3000. This is the main/home page of the website. You should see a form.
+![Alt text](/DEMO/formpage.png)
 
 **4.** Answer the form and submit when everything is filled out. Once submitted, Click on *"View History"* and scroll until you see your latest report!
 ###### Completing the form is not a requirement, you can go straight to "View History" if you want to.
+![Alt text](/DEMO/submitpage.png) ![Alt text](/DEMO/historypage.png)
 
 **5.** And thats it, very simple website that only deals with input reports and viewing reports.
 
-Just make sure to close the server by click control+C
+Just make sure to close the server by clicking control+C
 
 ## Tools Used:
   **PUG HTML CSS** and **JavaScript** were used to make the frontend.
