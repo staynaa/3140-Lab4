@@ -18,6 +18,8 @@ However everything needed for this repo/assignment to work smoothly is all here.
 
 **5.** And thats it, very simple website that only deals with input reports and viewing reports.
 
+Just make sure to close the server by click control+C
+
 ## Tools Used:
   **PUG HTML CSS** and **JavaScript** were used to make the frontend.
   We installed PUG the same way we installed everything into the package.json 
